@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  background: url("http://assets.coolhunting.com/coolhunting/mt_asset_cache/2015/01/vrai_and_oro-1.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: helvetica;
+}
+#slogan{
+	font-weight: bold;
+}
