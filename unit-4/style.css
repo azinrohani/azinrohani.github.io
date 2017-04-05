@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background: url("http://www.bmw-sudan.com/_common/shared/insights/technology/connected_drive_2010/_img/polygon_background.jpg");
+  background-size: cover;
+  color: #000;
+  font-family: 'Macondo', cursive;
+}
+@import url('https://fonts.googleapis.com/css?family=Macondo|Poiret+One');
+
+h1{
+	font-weight: lighter;
+	font-size: 34px;
+}
+h3{
+	font-size: 22px;
+}
+hr{
+	width: 1920px;
+}
+nav{
+	text-align: right;
+	font-size: 14px;
+	font-color:#000;
+}
+a{
+	text-decoration: none;
+	text-decoration-color: #000;
+}
+p{
+	font-size: 14px;
+}
+img {
+    border-radius: 8px;
+    size: 30px;
+}
+#slogan{
+	font-weight: bold;
+	font-size: 46px;
+}
+#font{
+	font-size: 100px;
+	font-weight:bold;
+}
