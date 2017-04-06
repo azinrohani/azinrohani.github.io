@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo|Poiret+One');
 body {
   text-align: center;
-  background: url("http://www.bmw-sudan.com/_common/shared/insights/technology/connected_drive_2010/_img/polygon_background.jpg");
-  background-size: cover;
-  color: #000;
-  font-family: helvetica;
+  background: url("http://art-a-designer.ru/wordpress/wp-content/gallery/alexandru_matusciac/fashion-girl.jpg");
+  background-size: 1150px;
+  color: #222;
+  font-family: helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.3;
+}
+
+h1, nav{
+	font-family: 'Macondo', cursive;
 }
 h1{
 	font-weight: lighter;
 	font-size: 34px;
+}
+h2, h3, h4 {
+	font-family: 'Poiret One', cursive;
 }
 h3{
 	font-size: 22px;
@@ -22,10 +32,12 @@ nav{
 }
 a{
 	text-decoration: none;
-	text-decoration-color: #000;
+	color: #000;
 }
 p{
 	font-size: 14px;
+	line-height: 1.5em;
+	max-width: 800px;
 }
 img {
     border-radius: 8px;

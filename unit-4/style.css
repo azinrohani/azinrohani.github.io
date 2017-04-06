@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo|Poiret+One');
 body {
   text-align: center;
   background: url("http://www.bmw-sudan.com/_common/shared/insights/technology/connected_drive_2010/_img/polygon_background.jpg");
@@ -5,7 +6,7 @@ body {
   color: #000;
   font-family: 'Macondo', cursive;
 }
-@import url('https://fonts.googleapis.com/css?family=Macondo|Poiret+One');
+
 
 h1{
 	font-weight: lighter;
