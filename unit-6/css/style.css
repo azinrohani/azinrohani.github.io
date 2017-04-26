@@ -1,59 +1,145 @@
- @import url('https://fonts.googleapis.com/css?family=Macondo|Poiret+One');
-  *{margin:0; padding:0; box-sizing: border-box;}
-  body {color: #222;
-    font-family: helvetica, sans-serif;
-    font-size:16px;
-    font-size: 22px;
-    background: url("http://art-a-designer.ru/wordpress/wp-content/gallery/alexandru_matusciac/fashion-girl.jpg");
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css?family=Macondo|Poiret+One');
+*{margin:0; padding:0; box-sizing: border-box;}
+body {
+  text-align: center;
+  background: url("http://art-a-designer.ru/wordpress/wp-content/gallery/alexandru_matusciac/fashion-girl.jpg");
+  background-repeat: no-repeat;
+  background-color: gray;
+  background-size: 100%;
+  color: #222;
+  font-family: helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.3;
+}
 
-  }
-  h2{
-      color: white;
-  }
-  nav {
-    width: 35%;
-  }
-  #intro {
-   background:url("http://art-a-designer.ru/wordpress/wp-content/gallery/alexandru_matusciac/fashion-girl.jpg");
-   background-size:cover;
-   background-repeat:no-repeat;
-   height:100vh;
-   padding: 20em 0 0 15em;
- }
-  #slogan{
-    font-weight: bold;
-    font-size: 46px;
-  }
-  #font{
-    font-size: 100px;
-  }
-  header {
-    margin: 0 auto;
-    background-color: Grays;
+h1, nav{
+	font-family: 'Macondo', cursive;
+}
+h1{
+	font-weight: lighter;
+	font-size: 34px;
+	float: left;
+	text-transform: lowercase;
+    letter-spacing: 1px;
+    padding: .5em;
+    display: inline-block;
+    margin: 0 10px;
+    border: none;
+}
+h2, h3, h4 {
+	font-family: 'Poiret One', cursive;
+}
+h3{
+	font-size: 22px;
+}
+h2{
+  color: black;
+}
+nav {
+	width: 35%;
+	float: right;
+	background-color: none;
+    border: 1px none solid;
+    padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+p{
+	font-size: 14px;
+	line-height: 1.5em;
+	max-width: 800px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#slogan{
+	font-weight: bold;
+	font-size: 46px;
+  margin: 300px auto 100px;
+}
+#font{
+	font-size: 100px;
+	font-weight:bold;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+}
+header {
+	margin: 0 auto;
+	background-color: Grays;
     border: 0 black solid;
-   max-width: 1450px;
-   width: 100%;
+    padding: 20px;
+    max-width: 1450px;
+    width: 100%;
+    height: 150px;
 }
 .navlinks {
-      font-family: Helvetica, sanserif;
-           color: white;
-  }
-  #twocolumn{  background-color: #FFB7CF; 
-   border: 1px black solid; 
-   padding: 20px; 
-   max-width: 1450px;
-   margin: auto;
-  }
-  .main{
-      margin: 0;
-    }
-  .d1{
-  float: left;
-   padding: 2em;
-    width: 33.3%;
-  }
-  .clearfix:after {
+    font-family: Helvetica, sanserif;
+    font-weight: 150;
+    font-style: normal;
+    color: black;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    padding: .5em;
+    display: inline-block;
+    margin: 0 10px;
+    border: none;
+}
+a:hover { 
+    color: white;
+}
+#twocolumn{
+	background-color: #FFB7CF;
+  border: 1px black solid;
+  padding: 20px;
+  width: 100%;
+  height: 500px; 
+}
+.main{
+	  margin: 0;
+    padding: 150px auto 80px;
+    max-width: 1450px;
+    width: 100%;
+    height: max-height;
+}
+#left{
+    padding: 20px;
+    float: left;
+    width: 100%;
+    margin: auto 0;
+}
+.d1{
+  display: inline;
+  float: right;
+  padding: 10% 2%;
+  background-color: none;
+  width: 33.3%;
+}
+.border{
+  outline: 1px solid #222;
+}
+img{
+ 
+  width: 100%;
+}
+footer{
+  text-align: center;
+}
+
+#right{
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 40%;
+    margin: auto 0;
+}
+.clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -61,14 +147,3 @@
     clear: both;
     height: 0;
 }
-
-  img{ 
-   display: inline-block;
-    width: 100%;
-  }
-  footer{
-    text-align: center;
-  }
-
-
-
